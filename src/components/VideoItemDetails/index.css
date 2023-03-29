@@ -1,0 +1,63 @@
+.not-found-container {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.player-container {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+.DetailsHeading {
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 30px;
+  font-size: 18px;
+  /* color: ${props => (props.darkTheme ? '#ffffff' : '#000000')}; */
+}
+.StatsAndButtonsContainer {
+}
+@media screen and (min-width: 768px) {
+  .StatsAndButtonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.StatsContainer {
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.ButtonContainer {
+  display: flex;
+  align-items: center;
+}
+.ReactButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  padding: 0px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  width: 90px;
+  font-size: 16px;
+}
+.ReactButtonText {
+  margin-left: 6px;
+}
+.DescriptionContainer {
+  padding-top: 30px;
+  font-size: 14px;
+}
+.ChannelInfoContainer {
+  display: flex;
+  align-items: center;
+}

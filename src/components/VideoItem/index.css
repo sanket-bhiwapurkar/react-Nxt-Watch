@@ -1,0 +1,11 @@
+.video-info {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+}
+.video-text {
+  padding: 0px 16px;
+}
+.link {
+  text-decoration: none;
+}

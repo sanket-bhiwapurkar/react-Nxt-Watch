@@ -1,0 +1,11 @@
+.gaming-body {
+  display: flex;
+}
+.gaming-video-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

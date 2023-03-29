@@ -1,0 +1,22 @@
+.no-videos-container {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.no-videos-img {
+  width: 40%;
+}
+.retry-btn {
+  width: 100px;
+  height: 35px;
+  font-family: 'Roboto';
+
+  height: 40px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
